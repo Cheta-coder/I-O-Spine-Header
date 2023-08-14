@@ -1,0 +1,66 @@
+.header{
+    background-color: rgb(255, 255, 255);
+    height: 4em;
+    width: 100%;
+    box-shadow: 2em rgb(255, 109, 109);
+    padding-top: 1em;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    width: 10em;
+    margin-left: 3em;
+}
+.title{
+    display: inline-block;
+    margin-top: -2em;
+    color: rgb(117, 9, 9);
+} 
+.nav{
+    float: right;
+    width: 25em;
+}
+ul{
+    list-style-type: none;
+    width: 20em;
+}
+.inline{
+    display: inline-block;
+    margin-right: 0em;
+    font-weight: bolder;
+    padding: 0em;
+    color: rgb(0, 0, 0);
+}
+.inline:hover{
+    color: white;
+}
+.footer{
+    margin-top: 20em;
+    width: 100%;
+    height: 10em;
+    background-color: black;
+    color: white;
+    padding-top: 3em;
+    position: relative;
+}
+.footer nav{
+    position: absolute;
+    top: 3em;
+    left: 72.5%;
+
+}
+.footer div{
+    width: fit-content;   
+}
+.footer ul li{
+    color: white;
+}
+.iconDiv{
+    float: right;
+}
+.fa-brands{
+    margin-left: 50%;
+    font-size: 1.5em;
+}
